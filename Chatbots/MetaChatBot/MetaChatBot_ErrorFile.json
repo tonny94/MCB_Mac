@@ -1,0 +1,5 @@
+{
+    "insertar respuestas": "createResponse",
+    "mostrar intenciones": "showcurrentIntent",
+    "insertar respuesta": "createResponse"
+}

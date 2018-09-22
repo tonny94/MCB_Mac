@@ -1,0 +1,5 @@
+{
+    "quiero cambiar chatbot": "listChatbot",
+    "procesar errores": "listResolvedErros",
+    "mostrar soluciones": "processSolutions"
+}

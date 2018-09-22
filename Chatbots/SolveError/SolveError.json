@@ -1,0 +1,176 @@
+{
+    "SolveError": [
+        {
+            "tag": "selectChatbot",
+            "patterns": [
+                "seleccionar chatbot",
+                "escoger un chatbot",
+                "escoger chatbot",
+                "seleccionar un chatbot",
+                "quiero seleccionar un chatbot",
+                "quiero escoger un chatbot",
+                "otro chatbot",
+                "cambiar chatbot"
+            ],
+            "responses": [
+                "¿ Qué chatbot quiere resolver ?",
+                "¿ Qué chatbot quiere procesar ?"
+            ],
+            "action": "selectChatbot"
+        },
+        {
+            "tag": "listChatbot",
+            "patterns": [
+                "listar chatbots",
+                "listar chatbot",
+                "ver chatbots",
+                "ver chatbot",
+                "ver todos los chatbots"
+            ],
+            "responses": [],
+            "action": "listChatbot"
+        },
+        {
+            "tag": "selectError",
+            "patterns": [
+                "seleccionar error",
+                "escoger un error",
+                "escoger error",
+                "seleccionar un error",
+                "quiero seleccionar un error",
+                "quiero escoger un error"
+            ],
+            "responses": [
+                "¿ Qué error quiere resolver ?",
+                "¿ Qué error quiere procesar ?"
+            ],
+            "action": "selectError"
+        },
+        {
+            "tag": "selectIntent",
+            "patterns": [
+                "quiero seleccionar un intent",
+                "seleccionar una intención",
+                "seleccionar un intent",
+                "escoger intent",
+                "escoger intención"
+            ],
+            "responses": [
+                "¿ A qué intención lo quiere añadir ?",
+                "¿ En qué intención lo quiere guardar ?"
+            ],
+            "action": "selectIntent"
+        },
+        {
+            "tag": "saveSolution",
+            "patterns": [
+                "guardar solución",
+                "salvar solución",
+                "guardar solución",
+                "salvar solución",
+                "guardar"
+            ],
+            "responses": [],
+            "action": "saveSolution"
+        },
+        {
+            "tag": "processSolutions",
+            "patterns": [
+                "resolver errores",
+                "quiero reolver los errores",
+                "quiero procesar los errores",
+                "solucionar errores",
+                "arreglar errores",
+                "procesar soluciones",
+                "solucionar errores"
+            ],
+            "responses": [],
+            "action": "processSolutions"
+        },
+        {
+            "tag": "listResolvedErros",
+            "patterns": [
+                "ver errores resueltos",
+                "listar errores procesados",
+                "ver lista de errores procesados",
+                "listar sentencias de errores procesados",
+                "listar errores procesados",
+                "ver errores procesados",
+                "ver errores resueltos",
+                "listar errores resueltos"
+            ],
+            "responses": [],
+            "action": "listResolvedErros"
+        },
+        {
+            "tag": "listUnresolvedErros",
+            "patterns": [
+                "listar errores",
+                "ver errores",
+                "ver lista de errores",
+                "listar sentencias de errores",
+                "errores sin procesar",
+                "ver errores sin procesar",
+                "ver errores no resueltos",
+                "listar errores no resueltos",
+                "errores sin procesar",
+                "errores sin resolver",
+                "mostrar errores"
+            ],
+            "responses": [],
+            "action": "listUnresolvedErros"
+        },
+        {
+            "tag": "listIntents",
+            "patterns": [
+                "listar intentns",
+                "ver intents",
+                "listar intenciones",
+                "ver intenciones"
+            ],
+            "responses": [],
+            "action": "listIntents"
+        },
+        {
+            "tag": "showCurrentSolution",
+            "patterns": [
+                "solución actual",
+                "error resuelto",
+                "solución",
+                "ver solución actual",
+                "mostrar solucion"
+            ],
+            "responses": [],
+            "action": "showCurrentSolution"
+        },
+        {
+            "tag": "saveSentence",
+            "patterns": [
+                "@Guardar",
+                "@Salvar"
+            ],
+            "responses": [],
+            "action": "saveSentence"
+        },
+        {
+            "tag": "dontSaveSentence",
+            "patterns": [
+                "@No salvar",
+                "@No guardar"
+            ],
+            "responses": [],
+            "action": "dontSaveSentence"
+        },
+        {
+            "tag": "finishRunningChatbot",
+            "patterns": [
+                "salir",
+                "parar chatbot",
+                "terminar de ejecutar chatbot",
+                "parar"
+            ],
+            "responses": [],
+            "action": "finishRunningChatbot"
+        }
+    ]
+}
